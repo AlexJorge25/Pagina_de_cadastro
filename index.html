@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" media="screen" />
+    <title>Cadastro</title>
+</head>
+
+<body class="conteiner_tela">
+
+    <div class="conteiner_dados">
+        <fieldset>
+            <h1>CADASTRO</h1>
+            <input type="text" placeholder="Nome" id="Pegar_Nome">
+            <h1>Email</h1>
+            <input type="email" placeholder="Email">
+            <h1>Senha</h1>
+            <input type="password" placeholder="Senha">
+            <br>
+            <a href="./logado.html">
+                <label>
+                    <button class="botao" onclick="pegarEColocarNome()">Enviar</button>
+                </label>
+            </a>
+        </fieldset>
+    </div>
+    <div class="conteiner_dados">
+        <fieldset class="fieldset">
+            <h1 style="text-align: center;">Faça login</h1>
+            <div class="formas_login">
+                <a
+                    href="https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser&theme=glif">
+                    <img src="./img/icon_google-removebg-preview.png" style="width: 30px; margin-left: 0mm;"
+                        class="icon_img">
+                </a>
+                <p style="color: rgb(0, 0, 0);">Faça login com Google</p>
+            </div>
+            <div class="formas_login">
+
+                <a href="https://pt-br.facebook.com/login/device-based/regular/login/">
+                    <img src="./img/facebook-13-removebg-preview.png" style="width: 20px; margin-left: 25px;"
+                        class="icon_img">
+                </a>
+                <em style="color: rgb(0, 0, 0);">Faça login com o Facebook</em>
+            </div>
+        </fieldset>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body >
+</html >

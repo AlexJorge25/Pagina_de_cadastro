@@ -1,0 +1,53 @@
+.conteiner_dados {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.conteiner_dados h1{
+    color:rgb(0, 0, 0);
+}
+.conteiner_dados fieldset {
+    border-radius: 20px;
+}
+.conteiner_tela {
+    background-color:rgb(255, 255, 255);
+}
+.botao {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 37%;
+    text-decoration: none;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+
+.icon_img {
+    
+    
+    margin-left: 20PX;
+}
+.fieldset div{
+    display: flex;
+    justify-content: center;
+    
+}
+.fieldset {
+    background-color: white;
+}
+.conteiner_dados input {
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+.formas_login {
+    
+    align-items: center;
+    
+}
+.formas_login img {
+    margin-right: 10px;
+
+}
